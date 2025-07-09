@@ -41,7 +41,24 @@ git status
 git add .
 git commit -m "Added folder and initial files to folder with group name"
 ```
+8. New user first clones the repository
+```bash
+git clone https://github.com/arpan-jk/exercise1_git-redo.git
+```
+9. Then the new user staged the changes and commits it
+```bash
+git add .
+git commit -m "changes made by new user"
+```
+10. A new branch dev/aman is made and switched to that branch
+```bash
+git checkout -b dev/aman
+```
+11. Finally the new branch is pushed
+```bash
+git push -u origin dev/aman
+```
 ## Flow chart
 ## References
 1. How to make a readme file : [link](https://www.makeareadme.com/)
-2. 
+2. How to push,pull and commit requests : [link](https://docs.github.com/en)
